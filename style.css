@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.articles{
+    width: 80%;
+}
+.article{
+    border: 1px solid black;
+    padding: 5px;
+}
+.article-body{
+    height: 900px;
+    background-color:rgb(143, 141, 248);
+}
+
+aside{
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(99, 94, 94);
+    position: fixed;
+}
+
+#contents li{
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(214, 209, 202);
+}
